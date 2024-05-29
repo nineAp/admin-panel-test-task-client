@@ -1,0 +1,22 @@
+/* chat-chart.css */
+.chart-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+canvas {
+  width: 100% !important;
+  height: 600px !important;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+}

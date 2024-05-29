@@ -1,0 +1,48 @@
+.nav_bar {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid dodgerblue;
+  padding: 15px;
+  height: 100vh;
+  width: 20vw;
+}
+
+.nav_bar h1 {
+  color: black;
+  font-weight: 400;
+  text-align: left;
+  font-size: 30pt;
+}
+
+.nav_bar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 100px;
+}
+
+.nav_bar ul li {
+  border-bottom: 1px solid dodgerblue;
+}
+
+.nav_bar li a {
+  color: black;
+  text-decoration-line: none;
+  font-size: 20pt;
+}
+
+@media screen and (max-width: 900px) {
+  .nav_bar {
+    width: 400px;
+    height: 100vh;
+  }
+
+  .nav_bar h1 {
+    font-size: 20pt;
+  }
+
+  .nav_bar li a {
+    font-size: 14pt;
+  }
+}
